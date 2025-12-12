@@ -1,0 +1,11 @@
+Xin chào! Đây là file test để thử tính năng upload.
+
+Ứng dụng TTS của chúng tôi giờ đây có thể:
+1. Đọc file TXT như file này
+2. Đọc file PDF với nhiều trang
+3. Đọc file DOCX từ Microsoft Word
+4. Đọc file Excel XLSX
+
+Sau khi upload, nội dung sẽ tự động hiển thị trong textarea và bạn có thể chuyển thành giọng nói ngay lập tức!
+
+Hãy thử upload file này và click "Xuất đoạn ghi âm" để nghe kết quả.

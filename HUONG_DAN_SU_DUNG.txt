@@ -1,0 +1,51 @@
+===================================
+   TTS - TEXT TO SPEECH APP
+===================================
+
+HƯỚNG DẪN SỬ DỤNG
+
+1. CÁCH CHẠY:
+   - Double click file "TTS-App.exe"
+   - Đợi 2-3 giây
+   - Tự động mở browser
+   - Bắt đầu sử dụng!
+
+2. TÍNH NĂNG:
+   ✅ Upload file: TXT, PDF, DOCX, XLSX
+   ✅ Paste text trực tiếp (max 100,000 ký tự)
+   ✅ 22 giọng đọc ElevenLabs chất lượng cao
+   ✅ Tối ưu cho tiếng Việt
+   ✅ Tải xuống file MP3
+
+3. YÊU CẦU:
+   - Windows 10/11 hoặc Linux/Mac
+   - Kết nối internet (cho ElevenLabs API)
+   - Port 5000 chưa sử dụng
+
+4. LƯU Ý:
+   ⚠️ Antivirus có thể cảnh báo → Chọn "Allow"
+   ⚠️ Lần đầu khởi động có thể hơi lâu (5-10s)
+   ⚠️ Không tắt cửa sổ console (màn hình đen)
+
+5. TROUBLESHOOTING:
+
+   Lỗi: Port 5000 đã được sử dụng
+   → Tắt ứng dụng đang dùng port 5000
+   → Hoặc restart máy
+
+   Không mở browser tự động:
+   → Mở browser thủ công
+   → Vào: http://localhost:5000
+
+   File .exe không chạy:
+   → Check antivirus
+   → Chạy với quyền Administrator
+
+6. HỖ TRỢ:
+   - Github: [Link repository nếu có]
+   - Email: [Email của bạn]
+
+===================================
+Powered by ElevenLabs Turbo V2.5
+Made with ❤️ by AI Hub Vietnam
+===================================

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# PyInstaller
+build/
+dist/
+
+# Flask
+instance/
+.webassets-cache
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Project specific
+audio/
+uploads/
+*.mp3
+*.wav
+
+# Temp
+*.tmp
+*.bak
+
+# Env
+.env
+.env.local

@@ -1,0 +1,10 @@
+flask==3.0.0
+gtts==2.5.0
+requests==2.31.0
+PyPDF2==3.0.1
+python-docx==1.1.0
+openpyxl==3.1.2
+
+# Optional: For Google Cloud Text-to-Speech API support
+# Uncomment below if you want to use Google Cloud voices
+# google-cloud-texttospeech==2.14.1
