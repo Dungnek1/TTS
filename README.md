@@ -1,43 +1,62 @@
-# TTS - Text to Speech Web App
+# 🎙️ TTS - Text to Speech Pro
 
-Ứng dụng web chuyển văn bản thành giọng nói với giao diện đẹp.
+Ứng dụng chuyển văn bản thành giọng nói với **ElevenLabs API**, tối ưu cho **tiếng Việt**.
 
-## Tính năng
+[![GitHub](https://img.shields.io/github/license/Dungnek1/TTS)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12-blue)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-3.0-green)](https://flask.palletsprojects.com)
+[![ElevenLabs](https://img.shields.io/badge/ElevenLabs-V2.5-orange)](https://elevenlabs.io)
 
-- 🎙️ Chuyển văn bản thành giọng nói
-- 🌍 Hỗ trợ nhiều ngôn ngữ: Tiếng Việt, English, 日本語, 한국어
-- 🎵 Phát audio trực tiếp trên trình duyệt
+## ✨ Tính năng
+
+- 🎙️ **22 giọng đọc** ElevenLabs premium (nam + nữ)
+- 📁 **Upload file**: TXT, PDF, DOCX, XLSX
+- 📝 **Paste text**: Max 100,000 ký tự
+- 🇻🇳 **Tối ưu tiếng Việt** với model Turbo V2.5
+- 🎵 Phát audio trực tiếp trên browser
 - 💾 Tải xuống file MP3
-- 📱 Responsive - hoạt động tốt trên mobile
-- ⚡ Nhanh chóng, đơn giản
+- 📱 Responsive - mobile friendly
+- 💻 **Build thành .exe** - chạy độc lập không cần Python
 
-## Cài đặt
+## 📦 Cài đặt
+
+### Cách 1: Chạy từ source (Development)
 
 ```bash
-# 1. Tạo virtual environment
+# Clone repo
+git clone https://github.com/Dungnek1/TTS.git
+cd TTS
+
+# Tạo virtual environment
 python3 -m venv venv
 
-# 2. Activate virtual environment
+# Activate (Linux/Mac)
 source venv/bin/activate
+# Hoặc Windows
+venv\Scripts\activate
 
-# 3. Cài dependencies
+# Cài dependencies
 pip install -r requirements.txt
-```
 
-## Chạy ứng dụng
-
-### Cách 1: Dùng script
-```bash
+# Chạy app
+python app.py
+# Hoặc
 ./run.sh
 ```
 
-### Cách 2: Chạy trực tiếp
-```bash
-source venv/bin/activate
-python app.py
-```
+Mở trình duyệt: **http://localhost:5000**
 
-Sau đó mở trình duyệt và truy cập: **http://localhost:5000**
+### Cách 2: Build thành .exe (Production)
+
+**Đọc hướng dẫn:** [BUILD_WINDOWS.md](BUILD_WINDOWS.md)
+
+```bash
+# Trên Windows
+build.bat
+
+# File .exe: dist\TTS-App.exe
+# Double click để chạy!
+```
 
 ## Cấu trúc project
 
@@ -80,11 +99,26 @@ Convert text to speech
 ### GET /audio/<filename>
 Serve audio file
 
-## Tech Stack
+## 📸 Screenshots
 
-- **Backend:** Flask (Python)
-- **Frontend:** HTML, CSS, JavaScript
-- **TTS Engine:** Google Text-to-Speech (gTTS)
+![TTS App](https://via.placeholder.com/800x400?text=TTS+App+Screenshot)
+*Coming soon...*
+
+## 🛠️ Tech Stack
+
+- **Backend:** Flask 3.0 (Python)
+- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+- **TTS API:** ElevenLabs Turbo V2.5
+- **File Processing:** PyPDF2, python-docx, openpyxl
+- **Packaging:** PyInstaller (build to .exe)
+
+## 🎯 Use Cases
+
+- 📚 Đọc sách/tài liệu
+- 📄 Đọc file PDF, Word, Excel
+- 🎓 Học tiếng (pronunciation)
+- 🔊 Tạo podcast/audiobook
+- ♿ Accessibility tools
 
 ## Demo audio samples
 
